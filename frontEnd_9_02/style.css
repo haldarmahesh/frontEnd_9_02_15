@@ -1,0 +1,36 @@
+header{
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+}
+body nav{
+  text-align: center;
+}
+section nav ul li{
+  display: block;
+}
+main div div nav, section nav{
+  text-align: left;
+}
+main div div{
+  width: 50%;
+  float: left;
+}
+section nav {
+width: 20%;
+float: left;
+}
+section main{
+width: 80%;
+float: left;
+}
+div nav{
+  width: 100%;
+}
+.clear{
+  clear:both;
+}
+footer{
+  text-align: center;
+}
