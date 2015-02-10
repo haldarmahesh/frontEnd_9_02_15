@@ -1,0 +1,127 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+  <title>Basic HTML Form</title>
+  <link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+<body>
+
+  <form method="POST" id="form1">
+<h1>Basic form</h1>
+<hr>
+    <div class="form_item">
+      <div class="coloumn1">
+        <label for="name">Name</label>
+      </div>
+      <div class= "coloumn2">
+        <input type="text" name="name" required id="name" placeholder="Enter name">
+      </div>
+    </div>
+
+    <div class="form_item">
+      <div class="coloumn1">
+        <label for="uname">Username</label>
+      </div>
+      <div class= "coloumn2">
+        <input type="text" name="uname" required id="uname" placeholder="Enter user name">
+      </div>
+    </div>
+
+    <div class="form_item">
+      <div class="coloumn1">
+        <label for="pass"> Password</label>
+      </div>
+      <div class= "coloumn2">
+        <input type="password" name="pass" required id="pass" placeholder="">
+      </div>
+    </div>
+
+    <div class="form_item">
+      <div class="coloumn1">
+        <label for="dob"> DOB</label>
+      </div>
+      <div class= "coloumn2">
+        <input type="date" name="dob" required id="dob" placeholder="">
+      </div>
+    </div>
+
+    <div class="form_item">
+      <div class="coloumn1">
+        <label for="age">Age</label>
+      </div>
+      <div class= "coloumn2">
+        <input type="number" name="age" required id="age">
+      </div>
+    </div>
+
+
+    <div class="form_item">
+      <div class="coloumn1">
+        <label for="email"> Email</label>
+      </div>
+      <div class= "coloumn2">
+        <input type="email" name="email" required id="email">
+      </div>
+    </div>
+
+    <div class="form_item">
+      <div class="coloumn1">
+        <label for="telenum"> Telenum</label>
+      </div>
+      <div class= "coloumn2">
+        <input type="number" name="telenum" required id="telenum">
+      </div>
+    </div>
+
+    <div class="form_item">
+      <div class="coloumn1">
+        <label for="homepage">Homepage</label>
+      </div>
+      <div class= "coloumn2">
+        <input type="text" name="homepage" required id="homepage">
+      </div>
+    </div>
+
+    <div class="form_item">
+      <div class="coloumn1">
+        <label for="gender">Gender</label>
+      </div>
+      <div class= "coloumn2">
+       <input type="radio" name="gender" required id="maleG">
+       <label for="maleG">Male</label>
+       <input type="radio" name="gender" required id="femaleG">
+       <label for="femaleG">Female</label>
+     </div>
+   </div>
+
+   <div class="form_item">
+        <div class="coloumn1">
+          <label for="country">Country</label>
+        </div>
+        <div class= "coloumn2">
+          <select name="country" required>
+        <option value="select">Please select</option>
+        <option value="india">
+          India
+        </option>
+        <option value="Pakistan">
+          Pakistan
+        </option>
+      </select>
+        </div>
+      </div>
+
+<div class="form_item">
+      <div class="coloumn1">
+        Submit
+      </div>
+      <div class= "coloumn2">
+      <button type="submit" id="submit">submit now</button>
+      
+     </div>
+   </div>
+
+
+</form>
+</body>
+</html>

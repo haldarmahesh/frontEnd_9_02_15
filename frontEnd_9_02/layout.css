@@ -17,7 +17,7 @@ main div div{
   width: 50%;
   float: left;
 }
-section nav {
+section > div {
 width: 20%;
 float: left;
 }
@@ -34,3 +34,4 @@ div nav{
 footer{
   text-align: center;
 }
+

@@ -1,0 +1,49 @@
+header div {
+  color:#333D06;
+  border-bottom: 4px solid #333D06;
+
+}
+
+.main_menu ul li a
+{
+  padding: 10px;
+  background-color: #4A580E;
+}
+.main_menu ul li a:link, .main_menu ul li a:visited, .main_menu ul li a:hover, .main_menu ul li a:active  {
+  color: white;
+  text-decoration: none;
+}
+
+.main_menu ul li a:hover{
+  background-color: #333D06;
+}
+.left_top_menu ul, .left_bottom_menu ul{
+  padding: 0px;
+}
+
+.left_top_menu li a:link, .left_top_menu li a:visited{
+  color: #333D06;
+  text-decoration: none;
+}
+.left_top_menu li{
+  background-color:#EBF4E3; 
+  margin: 5px 0px 5px 0px;
+  padding: 5px;
+  border-bottom: 1px dotted black;
+  border-top: 1px dotted black;
+}
+.left_top_menu, .left_bottom_menu{
+  margin-top: 10px;
+}
+.left_top_menu li a:hover{
+  text-decoration: underline;
+}
+
+.left_bottom_menu li{
+  background-color: #DBE689;
+  margin: 5px 0px 5px 0px;
+  padding: 5px;
+  border: 1px  solid black;
+
+  
+}

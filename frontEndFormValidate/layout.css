@@ -1,0 +1,37 @@
+#form1{
+  padding: 30px;
+  background-color: #EEEEEE;
+  width: 300px;
+  border-radius: 20px;
+}
+.form_item{
+  clear: both;
+  padding-top: 10px;
+}
+.coloumn1, .coloumn2{
+  width: 100%;
+}
+.coloumn1{
+  padding: 5px;
+  font-weight: bold;
+}
+input, select, button{
+  width: 100%;
+  padding: 8px;
+  box-shadow: 1px 2px 11px #888888;
+  border:1px solid #DADADA;
+  font-size: 12px;
+  border-radius: 4px;
+}
+#maleG, #femaleG{
+  width: 19px;
+}
+h1{
+  text-align: center;
+}
+button{
+  background-color: #4A580E;
+  color: white;
+  cursor: pointer;
+  width: 50%; 
+}
